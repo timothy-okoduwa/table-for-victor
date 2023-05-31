@@ -107,3 +107,104 @@ font-weight: 600;
 font-size: 16px;
 color: #FFFFFF;
 }
+.pagination a {
+  color: #ffffff69;
+  /* opacity: 0.5; */
+  text-decoration: none !important;
+  outline: none !important;
+  border: none !important;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+background: #464852;
+  /* opacity: 0.2; */
+  border-radius: 5px;
+}
+
+.pagination .active a {
+  color: white;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+
+.pagination .disabledd a {
+  color: gray;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+
+.pagination .active {
+  color: #000000 !important;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+.pagination .active a {
+  color: #ffffff;
+  background: #000000;
+  border-radius: 5px;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+.pagination .active a :hover {
+  color: #ffffff;
+  background: #000000;
+  border-radius: 5px;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+.pagination .page-item:first-child .page-link {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  margin-left: 10px;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+
+.pagination .page-item:last-child .page-link {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  margin-left: 10px;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+
+.pagination .page-link:focus,
+.pagination .page-link:hover {
+  margin-left: 10px;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
